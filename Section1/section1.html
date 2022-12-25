@@ -1,0 +1,21 @@
+<!DOCTYPE html></html>
+<head>
+    <script>var number = window.prompt("Enter Grand Total");
+var basePrice = number/1.062;
+console.log(basePrice);
+var couponDiscountPercentage = 10;
+var couponDiscountAmount = (basePrice*10)/100;
+var subtotal = basePrice - couponDiscountAmount;
+var taxRate= 18;
+var taxAmount = (subtotal*18)/100;
+var grandTotal = subtotal + taxAmount ;
+
+const info = {basePrice : this.basePrice , couponDiscountPercentage : this.couponDiscountPercentage,
+              couponDiscountAmount : this.couponDiscountAmount , subtotal : this.subtotal , taxRate: this.taxRate,
+            taxAmount: this.taxAmount, grandTotal: this.grandTotal};
+            console.log(info);
+</script>
+</head>
+<body>
+
+</body>
